@@ -1,1 +1,11 @@
 This is a game coded in adobe shockwave during a bachelor's project
+
+version onfo (Bugs fixed)
+
+> v3
+1. Difficulty levels Readjusted.
+2. Ball doesn't skip the pad at very high speeds.
+
+> v2
+1. Ball doesn't stick on the edges of the pad.
+2. Difficulty levels adjusted.(Difficulty increased.)
