@@ -1,0 +1,1 @@
+These are a few scripts I wrote during my master's thesis. Together these script query the sam files summarize and visualize the good paired reads from different multiple sequencing libraries. Contrary to the available tools our goal was to account for the whole sequence between the properly mapped pairs of paired end reads. 
