@@ -1,4 +1,10 @@
 I wrote the first draft of these scripts during my master's thesis under supervision of Siv Andersson and Lionel Guy. These scripts have been updated further during my PhD and were use to validate the genome assemblies published by Mahajan et al. 2020. These scripts can be used to summarize and visualize the mapping qualiy of the good paired reads from different multiple sequencing libraries.
 The first step is the "assembly_validation.pl" script that calculates the coverage of each base from each of the mapped libraries. The available methods to perform such an analysis vizualise the coverage of only the ends of the paired reads. Contrary to the available tools our goal was to account for the whole sequence, including the nucleotide sequence in-between the properly mapped paired end reads. As described in the help message, this tool needs a pileup file produced by merging all the mapped sequencing libraries. The out put of this script is later used to vizualize the coverage statistics and coverage per base.
-Assembly_graph_v2.R
-summarizeValidation.0.3.R
+The output from the first step, "assembly_validation.pl" can then be used as an input to the two R scripts Assembly_graph_v2.R and summarizeValidation.0.3.R. The uploaded version of the script can be used to plot read mapping data from 2 different paired end libraries. The sample output from these two scripts is shown.
+Output from Assembly_graph_v2.R: 
+   1. AssemblyGraph_GSoil9.pdf
+   2. AssemblyGraph_Gobs.pdf
+Output from summarizeValidation.0.3.R: 
+   1. Densities_GSoil9.pdf
+   2. Densities_Gobs.pdf
+   
