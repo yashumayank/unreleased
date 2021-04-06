@@ -1,1 +1,1 @@
-An engine for first person 3D free view built using directX9 and C++. Something similar to counterstrike after death vision. (Bachelor's project)
+An engine for first person 3D free view built using directX9 and C++. Something similar to counterstrike after death vision. Sincer directX 9 is deprecated both the SDK and the runtime libraries will have to be seperately installed and activated. Alternatively, the code can be ported to use the latest directX libraries.
