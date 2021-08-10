@@ -1,8 +1,9 @@
-The first draft of these scripts was written during my master's thesis under supervision of Siv Andersson and Lionel Guy. These scripts have been later updated during my PhD and were also used to validate the genome assemblies published by Mahajan et al. 2020. These scripts can be used to summarize and visualize the mapping qualiy of the good paired-end reads, and single reads, from multiple sequencing libraries. Contrary to the available tools our goal was to account for the nucleotide sequence of the whole reads, including the sequence in-between the sequenced ends of the reads. The good reads are decided based on alignment orientation, gap size and alignment quality.
 
-The first step of the pipeline is the "assembly_validation.pl" script that calculates the coverage and insert size of the mapped read from multiple libraries at each base. As described in the help message, this tool needs a pileup file, which is produced by merging all the mapped sequence libraries. The output of this script is tab-delimited file with the coverage and insert size statistics per library for each base.
+These scripts can be used to summarize and visualize the mapping quality of the good paired-end reads, and single reads, from multiple sequencing libraries. Contrary to the available tools our goal was to account for the nucleotide sequence of the whole reads, including the sequence in-between the sequenced ends of the reads. The good reads are decided based on alignment orientation, gap size and alignment quality.
 
-The output from the first step, "assembly_validation.pl" can then be used as an input to the Assembly_graph_v2.R and summarizeValidation.0.3.R. The currently uploaded versions of these scripts can be used to plot read mapping data from 2 paired-end libraries. The sample output from these two scripts is shown in the following files.
+The first step of the pipeline is the "assembly_validation.pl" script that calculates the coverage and insert size of the mapped reads from multiple libraries at each base. As described in the help menu, this tool needs a pileup file (in .vcf format), which is produced by merging all the mapped sequence libraries. The output of this script is a tab-delimited file with the coverage and insert size statistics per library per each base; prints one row per base.
+
+The output from the first step, "assembly_validation.pl" can then be used as an input to the Assembly_graph_v2.R and summarizeValidation.0.3.R. The currently uploaded versions of these scripts can be used to plot read mapping data from 2 paired-read libraries, and one single-read library. The sample outputs from these scripts are shown in the following files.
 
 Output from Assembly_graph_v2.R: 
    1. AssemblyGraph_GSoil9.pdf
@@ -11,3 +12,6 @@ Output from Assembly_graph_v2.R:
 Output from summarizeValidation.0.3.R: 
    1. Densities_GSoil9.pdf
    2. Densities_Gobs.pdf
+
+
+The first draft of these scripts was written during my master's thesis under supervision of Siv Andersson and Lionel Guy. These scripts have been later updated during my PhD and were also used to validate the genome assemblies published by Mahajan et al. 2020. 
