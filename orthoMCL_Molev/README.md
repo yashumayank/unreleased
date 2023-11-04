@@ -25,7 +25,7 @@ preHomologySearch -i /faaFiles -f genomes.list -l 10 -x 20
 
 Run all-vs-all homology search with your preferred tool such as Blastp or MMseq. Set the output format to blast-like tabular format.
 
-Use the homology search results from above to run ORX with default settings
+Use the homology search results from above to run with default settings
 
 ```
 Rscript orthoMCL.R -p all_vs_all_homology_results.tab -p protein_sizes.tab
