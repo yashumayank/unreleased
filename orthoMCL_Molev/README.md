@@ -17,8 +17,8 @@ gcc mergeHSP.c -o mergeHSP
 ### Running orthoMCL_Molev
 
 Merge all protein fasta files in the <faaFiles> folder and create a single fasta with taxa names in the headers (Inspired by orthoMCL and tribeMCL). Also create the protein_sizes.tab 
-```
 
+```
 preHomologySearch -i /faaFiles -f genomes.list -l 10 -x 20
 ```
 
