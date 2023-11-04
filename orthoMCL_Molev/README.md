@@ -7,6 +7,7 @@ Clusters homology results from roughly 100 bacterial species consumes 52GB of RA
 ### Prerequisites
 
 Install C compiler, and R with following libraries: ggplot2, data.table, dplyr, stringr, parallel, optparse
+
 Instal mcl for markov chain clustering from https://github.com/micans/mcl
 
 Compile the C code:-
@@ -26,7 +27,7 @@ preHomologySearch -i /faaFiles -f genomes.list -l 10 -x 20
 
 Run all-vs-all homology search with your preferred tool such as Blastp or MMseq. Set the output format to blast-like tabular format.
 
-Use the homology search results from above to run orhoMCL.R. Use the following command to run with default settings ()
+Use the homology search results from above to run orhoMCL.R. Use the following command to run with default settings
 
 ```
 Rscript orthoMCL.R -p all_vs_all_homology_results.tab -p protein_sizes.tab
