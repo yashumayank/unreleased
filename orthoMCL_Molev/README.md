@@ -31,4 +31,4 @@ Rscript orthoMCL.R -p all_vs_all_homology_results.tab -p protein_sizes.tab
 ```
 
 ### Performance and scalability
-Clusters homology results from roughly 100 bacterial species consumes 52GB of RAM and takes 1hr45min on single processor (2.4 GHz). 
+Clusters homology results from roughly 100 bacterial species in less than 2 hours on a single 2.4 GHz processor and consuming 52GB of RAM . 
