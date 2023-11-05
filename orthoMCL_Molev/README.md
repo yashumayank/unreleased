@@ -16,15 +16,15 @@ gcc mergeHSP.c -o mergeHSP
 
 ### Running orthoMCL_Molev
 
-Merge all protein fasta files in the <faaFiles> folder and create a single fasta with taxa names in the headers (Inspired by orthoMCL and tribeMCL). Also create the protein_sizes.tab 
+Merge proteins from all the protein fasta files in 'faaFiles' folder and create a single fasta with taxa names in the headers (Inspired by orthoMCL and tribeMCL). Also creates the protein_sizes.tab 
 
 ```
 preHomologySearch -i /faaFiles -f genomes.list -l 10 -x 20
 ```
 
-Run all-vs-all homology search with your preferred tool such as Blastp or MMseq. Set the output format to blast-like tabular format.
+All-vs-all homology search: Search proteins in the merged protein file against themselves using Blastp or MMseq. Set the output format to blast-like tabular format.
 
-Use the homology search results from above to run orhoMCL.R. Use the following command to run with default settings
+Run orhoMCL.R on the homology scores from above. Use the following command to run with default settings
 
 ```
 Rscript orthoMCL.R -p all_vs_all_homology_results.tab -p protein_sizes.tab
