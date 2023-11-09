@@ -3,9 +3,9 @@ This is a customized tool to cluster orthologous proteins using homology search 
 
 ### Prerequisites
 
-Install C compiler, and R with following libraries: ggplot2, data.table, dplyr, stringr, parallel, optparse
+C compiler, and R with following libraries: ggplot2, data.table, dplyr, stringr, parallel, optparse
 
-Install markov chain clustering tool MCL. Check download and install instructions on the MCL github page: https://github.com/micans/mcl
+markov chain clustering tool MCL. Check download and install instructions on the MCL github page: https://github.com/micans/mcl
 
 Compile the C code:-
 
