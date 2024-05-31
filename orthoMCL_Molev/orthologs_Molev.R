@@ -7,7 +7,7 @@ library(parallel)
 library(optparse)
 #detach(package:Rmpfr, unload=TRUE)
 
-# example:-  Rscript orthoMCL.R -p all_vs_all_homology_results.tab -p protein_sizes.tab
+# example:-  Rscript orthologs_Molev.R -p all_vs_all_homology_results.tab -p protein_sizes.tab
 
 #to do list
 # check limits of bit score constant "K" ; write about detecting neofunctiontionalization among fast evolving genes; such as muti-domain proteins, signma factors etc.
