@@ -1,1 +1,1 @@
-A web frontend tool that was built for the a private firm called Climate Connect. This tool queries the carbon credit database and then show the relevant carbon credit data about the credit holder. The project was built using php and curl.
+A web frontend tool that was built for the a private firm called Climate Connect. This tool queries the carbon credit database and shows the relevant carbon credit data about the credit holder. The project was built using php and curl.
