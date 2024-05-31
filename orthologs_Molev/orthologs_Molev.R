@@ -88,8 +88,8 @@ option_list <- list(
 
       	orm   Scores are normalized using the average score from all or specified number of top hits for
             	each pair of species. The number of top hits to be used can be adjusted using the MAXPSP
-            	parameter. 'MAXPSP = 1' can be used to perform orthoMCL-like scorenormalization.
-            	usage (-c orM,MAXPSP)  eg. (-c orM,0.4)
+            	parameter. 'MAXPSP = 1' can be used to perform orthoMCL-like score normalization.
+            	usage (-c orM,MAXPSP)  eg. (-c orM,1) or (-c orM,0.4)
                 	MAXPSP	- The maximum proportion of the species-pairs that are allowed to have fewer
                             	homologs that being used to calculate average scores for normalization.
                                                           	" , metavar="par1,par2"),
