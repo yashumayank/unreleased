@@ -33,7 +33,7 @@ option_list <- list(
             	[default: bits]
                 	bits  	- bit scores
                 	bitsLog   - log10 of bit scores
-                	evalLog   - negative log10 of evalue scores (similar to orthoMCL v2)
+                	evalLog   - negative log10 of evalue scores
                 	evalLogBH - Similar to evalLog. Uses bit score to search best inter-species hits."),
   make_option(c("-F", "--aln_length_filter"), type="character", default="est,0.2,0.4",
 	help="To reduce the noise, the holology hits with low aligned length can be filtered using
