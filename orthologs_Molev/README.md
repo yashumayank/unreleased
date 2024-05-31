@@ -1,7 +1,7 @@
 # Orthologs_Molev
 This is a customized tool to cluster orthologous proteins using homology search results from tools like Blastp or MMseq. I built it during my years at Molev, ICM, Uppsala Universitet. Orthology prediction is the foundation of comparative genomics and protein function prediction. This project was aimed to port orthoMCL from Perl+SQL to C+R, to provide an option to normalize of co-ortholgs together with orthologs, and to address some of drawbacks of orthoMCL and tribeMCL. 
 
-Ortholog clustering of proteins with repeated domains and promiscuous domains is challenging. This tool uses a new step-by-step approach to merge homology scores from multiple conserved domains in the same pair of proteins. Then it normalizes the homology scores via a linear model, which is trained to predict the score for a pair of species/taxa given the protein length. This new approach is able to preserve the ortholog clusters of the multi-domain or non-globular proteins, while filtering false positives. Hence, it serves as a really good helper tool to fetch ortholog clusters of multi-domain proteins.
+Ortholog clustering of proteins with repeated domains and promiscuous domains is challenging. This tool uses a new step-by-step approach to merge homology scores from multiple conserved domains in the same pair of proteins. Then it normalizes the homology scores via a linear model, which is trained to predict the score for a pair of species/taxa given the protein length. This new approach is able to preserve the ortholog clusters of the multi-domain proteins, while filtering false positives. Hence, it serves as a really good helper tool to fetch ortholog clusters of multi-domain proteins.
 
 ### Prerequisites
 
