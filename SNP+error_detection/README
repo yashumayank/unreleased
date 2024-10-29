@@ -1,1 +1,1 @@
-This project was written as a part of the summer project in Jan Andersson's lab in uppsala. The code was unfortunately deleted by mac OSX security during one of the many upgrades over the years. I hope I can find the code in the backups.
+This project was written as a part of the summer project in Jan Andersson's lab in uppsala. The code was unfortunately deleted by mac OSX security during one of the many upgrades over the years. The assembly validation tool that I built later uses parts of this code in merging multiple libraries that are mapped to the same reference. 
